@@ -1,0 +1,17 @@
+{
+    "registered" : [
+        {
+            "email" : "archi7dwivedi@gmail.com",
+            "district" : "Lucknow",
+            "state" : "Uttar Pradesh"
+        }
+    ],
+
+    "admins" : [
+        {
+            "email" : "architdwivedi.0ff@gmail.com",
+            "district" : "Lucknow",
+            "state" : "Uttar Pradesh"
+        }
+    ]
+}
