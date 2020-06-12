@@ -1,0 +1,36 @@
+{
+    "registered" : [
+        {
+            "name": "Elon Musk",
+            "email" : "xxxx@gmail.com",
+            "district" : "Maharajganj",
+            "state" : "Uttar Pradesh"
+        }
+    ],
+
+    "admins" : [
+        {
+            "id" : 0,
+            "name": "",
+            "email" : "xxxx@gmail.com",
+            "district" : "Agra",
+            "state" : "Uttar Pradesh"
+        },
+
+        {
+            "id" : 1,
+            "name": "evi1haxor",
+            "email" : "xxxx@evi1haxor.com",
+            "district" : "Lucknow",
+            "state" : "Uttar Pradesh"
+        }
+    ],
+    
+    "host-params" : [
+        {
+            "id" : 0,
+            "HostName" : "smtp.gmail.com",
+            "port" : 587
+        }
+    ]
+}
