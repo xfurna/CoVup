@@ -1,6 +1,6 @@
 ---
 name: Subscription Request
-about: Describe this issue template's purpose here.
+about: Make subscription request.
 title: "[SUBSCRIBE]"
 labels: Subscriber
 assignees: ''
