@@ -46,6 +46,7 @@ for user in meta['registered']:
     msg = MIMEMultipart()
 
     message = mail_template.substitute(PERSON_NAME=user['name'], ACTIVE_CASES=dist_[-1]['active'], CONF_CASES=dist_[-1]['confirmed'], RECOV_CASES=dist_[-1]['recovered'], DEC_CASES=dist_[-1]['deceased'], DATE=dist_[-1]['date'])
+    # message="Hi "+PERSON_NAME+"!\n"+"As of " + str(DATE) + " " + user['district']+" has " + str(ACTIVE_CASES) + " active cases, " + str(CONF_CASES) + " confirmed cases, " + str(RECOV_CASES) + " recovered cases and " + str(DEC_CASES) + " deceased cases.\n\nStay safe!\n\nYours Truly\n---\nevi1haxor"
 
     msg['From']=meta['admins'][admin_id]['email']
     msg['To']=user['email']
