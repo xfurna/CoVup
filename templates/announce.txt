@@ -1,0 +1,8 @@
+Hi ${PERSON_NAME}! 
+
+INSERT CONTENT FROM README.md HERE
+
+Stay safe!
+Yous Truly,
+---
+evi1haxor
