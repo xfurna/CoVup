@@ -2,11 +2,11 @@ Hi ${PERSON_NAME}!
 
 Hope you're doing well.
 
-This is to inform you that as of <b>${DATE}</b>, your district have-
-<b>${ACTIVE_CASES}</b> active cases
-<b>${CONF_CASES}</b> confirmed cases
-<b>${RECOV_CASES}</b> recovered cases
-<b>${DEC_CASES}</b> deceased cases
+This is to inform you that as of ${DATE}, your district have-
+${ACTIVE_CASES} active cases
+${CONF_CASES} confirmed cases
+${RECOV_CASES} recovered cases
+${DEC_CASES} deceased cases
 
 Stay safe!
 Yous Truly,
