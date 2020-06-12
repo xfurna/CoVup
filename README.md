@@ -1,4 +1,6 @@
 # CoV Updates Setu
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 
 Because services that have `setu` in their names are rad' cool.
 
