@@ -14,7 +14,7 @@ Because services that have `setu` in their names are rad' cool.
     └── subscribers.txt
 ```
 
-I have made such arrangements that the script `scripts/main.py` would trigger itself off every day and send an email to the subscribers regarding the latest pandemic stats (active cases, confirmed cases, recovred cases and deceased cases) about their district.
+I have made such arrangements that the script `scripts/main.py` would trigger itself off every day and send an email to the subscribers regarding the latest pandemic stats (active cases, confirmed cases, recovered cases and deceased cases) about their district.
 
 ## How to subscribe
 
@@ -26,10 +26,12 @@ You can subscribe to the service by opening an issue on this repository. Make su
 "state" : "xxx"
 ```
 
+If you happend to share your details privately due to privacy concerns, I assure you that syour informations would not be made public in any way.  
+
 ## Contributions
 
 Are welcome.
 
-## Courtesy
+<hr>
 
-[covid19india/api](https://github.com/covid19india/api)
+**Courtesy:** [covid19india/api](https://github.com/covid19india/api)
