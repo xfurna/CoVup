@@ -26,7 +26,9 @@ You can subscribe to the service by opening an issue on this repository. Make su
 "state" : "xxx"
 ```
 
-If you happend to share your details privately due to privacy concerns, I assure you that syour informations would not be made public in any way.  
+If you have privacy concerns, you can share your details with me on [telegram](https://t.me/evi1haxor), privately.
+
+**Note:** You can make muliple subscriptions too.
 
 ## Contributions
 
