@@ -16,7 +16,7 @@ Because services that have `setu` in their names are rad' cool.
     └── subscribers.txt
 ```
 
-I have made such arrangements that the script `scripts/main.py` would trigger itself off every day and send an email to all the subscribers regarding the latest CoV pandemic stats about their district (like active cases, confirmed cases, recovered cases and deceased cases).
+I have made such arrangements (using [WayScript](https://wayscript.com/)) that the script `scripts/main.py` would trigger itself off every day and send an email to all the subscribers regarding the latest CoV pandemic stats about their district (like active cases, confirmed cases, recovered cases and deceased cases).
 
 ## How to subscribe
 
