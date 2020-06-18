@@ -1,7 +1,6 @@
 import requests
 import json
 import smtplib
-from . import methods
 
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -17,7 +16,7 @@ def read_template(filename):
 
 admin_id = 0
 host_id = 0
-PASSWORD = ""
+PASSWORD = "" # enter password
 
 mail_template = read_template("../templates/subscribers.txt")
 
