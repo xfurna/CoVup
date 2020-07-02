@@ -1,6 +1,7 @@
 script/local_script.py
 meta.json
 exp.py
+script/pers.py
 ### Code ###
 .vscode/*
 !.vscode/settings.json
