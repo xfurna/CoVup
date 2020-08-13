@@ -20,7 +20,8 @@ PASSWORD = "" # enter password
 
 mail_template = read_template("../templates/subscribers.txt")
 
-dist_daily = "https://api.covid19india.org/districts_daily.json"
+dist_daily='https://api.covid19india.org/v4/data.json'
+# old_dist_daily = "https://api.covid19india.org/districts_daily.json"
 # zones='https://api.covid19india.org/zones.json'
 
 with open("../meta.json") as f:
@@ -37,14 +38,21 @@ s.login(meta["admins"][admin_id]["email"], PASSWORD)
 dist_daily_json = requests.get(dist_daily).json()
 # zones_json=requests.get(zones).json()
 
-for user in meta["registered"]:
-    print("emailing to: " + user["email"])
-    dist_ = dist_daily_json["districtsDaily"][user["state"]][user["district"]]
+for user in meta['registered']:
+    print("emailing to: " + user['email'])
+    dist_ = dist_daily_json[user['state']]['districts'][user['district']]['total']
     # print("Active: ", dist_[-1]['active'])
     # print("Confirmed: ", dist_[-1]['confirmed'])
     # print("Deceased: ", dist_[-1]['deceased'])
     # print("Recovered: ", dist_[-1]['recovered'])
     # print("Date: ", dist_[-1]['date'])
+    msg = MIMEMultipart()
+    PERSON_NAME=user['name']
+    CONF_CASES=dist_['confirmed']
+    RECOV_CASES=dist_['recovered']
+    DEC_CASES=dist_['deceased']
+    ACTIVE_CASES=CONF_CASES - DEC_CASES - RECOV_CASES
+    
     msg = MIMEMultipart()
 
     message = mail_template.substitute(
