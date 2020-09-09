@@ -3,9 +3,6 @@
         CoVup Setu
     </h1>
     <img width="250" src="https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/covup.jpg?token=AG5NBSJVCWURK5GXHB4MFDS7MEULQ" alt="CoVup mailing service" />
-    <p>
-        <i>Get pandemic related stats of your district first thing in the morning.</i>
-    </p>
 </div>
 
 
